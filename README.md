@@ -2,7 +2,7 @@
 
 This repository contains a project separated by main back-end and front-end folders.
 
-:information_source: The backend part is containing API by [.NET CORE version 5.0.5](https://dotnet.microsoft.com/download/dotnet/5.0). API's objective is to deliver simple weather data by calling it with the city of interest. I used [openweathermap.org](https://openweathermap.org/) API to retrieve weather data for little minimization and modification. Additionally, backend API can deliver JSON-type files with saved weather content in them. From third-party libraries, it is using just [Json.NET](https://www.newtonsoft.com/json/help/html/Introduction.htm)
+:information_source: The backend part is containing API by [.NET CORE version 5.0.5](https://dotnet.microsoft.com/download/dotnet/5.0). API's objective is to deliver simple weather data by calling it with the city of interest. I used [openweathermap.org](https://openweathermap.org/) API to retrieve weather data for little minimization and modification. Additionally, backend API can deliver JSON-type files with saved weather content in them. From third-party libraries, it is using just [Json.NET](https://www.newtonsoft.com/json/help/html/Introduction.htm).
 
 ## Backend
 -------------
@@ -17,7 +17,7 @@ GET /WeatherForecast/weather?city=riga
 |---        |---                                                |
 | *city*    | City of interest for which to retrieve weather info. **(Default value is Riga)** |
 | *printOut*| **(optional)** Download JSON-type file. Values True/False.  **(Default value is False)**
-| *comment* | **(optional)** Add a "comment" key property for the downloaded JSON file. **(Works only if "printOut" is True)**|
+| *comment* | **(optional)** Add a "comment" key property for the downloaded JSON file. **(Shoud be used when "printOut" is True)**|
 
 ##### Response
 ```json
@@ -45,4 +45,4 @@ GET /WeatherForecast/weather?city=riga
 }
 ```
 ## Frontend
-:information_source: The frontend part ("under-development") is containing a basic React app, which objective is to interact and display backend API functionality. From third party libraries, it is using just [reactstrap](https://reactstrap.github.io/).
+:information_source: The frontend part is containing a basic React app, which objective is to interact and display backend API functionality. From third party libraries, it is using just [reactstrap](https://reactstrap.github.io/) and [downloadJS](https://github.com/rndme/download). 

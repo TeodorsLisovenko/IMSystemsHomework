@@ -3,7 +3,23 @@
   backdrop-filter: blur(1000000px);
 }
 
-#title_text 
-{
-  font-family: 'Caveat', cursive;
+#title_text {
+  font-family: "Caveat", cursive;
+}
+
+#table_title_city {
+  margin-top: 10px;
+  font-family: "Girassol", cursive;
+  color: white;
+}
+
+#table_content {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+}
+
+#error_text {
+  margin-top: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
 }
